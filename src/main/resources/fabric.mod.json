@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "brighter",
+  "version": "${version}",
+
+  "name": "Brighter",
+  "description": "Increases the maximum brightness configurable in the video settings from 100% to 1000% allowing pitch black areas to appear as if under daylight.",
+  "authors": [
+    "e00E"
+  ],
+  "contact": {
+    "sources": "https://github.com/e00E/Brighter"
+  },
+
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/brighter/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "brighter.Brighter"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
